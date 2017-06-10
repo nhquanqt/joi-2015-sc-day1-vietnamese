@@ -57,6 +57,7 @@ int main() {
 		pos[i - 1] = sum;
 		run_dijkstra(sum, i - 1);
 	}
+	// minh thich thi minh floyd thoi
 	#define MAX (1 << 4)
 	for (int i = 0; i < MAX; ++i) {
 		for (int j = 0; j < MAX; ++j)
